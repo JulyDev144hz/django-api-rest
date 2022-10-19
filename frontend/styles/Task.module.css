@@ -1,0 +1,30 @@
+.taskbox{
+    background: #fff;
+    padding: 5px;
+
+
+
+
+    box-shadow: 0 0 5px #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.task_name{
+    font-size: 25px;
+    color: #8a2be2;
+    text-shadow: 0 0 5px #fff, 0 0 5px #8a2be2;
+}
+.task_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.task_button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
